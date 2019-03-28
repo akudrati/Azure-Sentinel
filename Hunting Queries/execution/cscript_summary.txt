@@ -1,4 +1,4 @@
-// cscript script daily summary breakdown
+// Name: Cscript script daily summary breakdown
 // Tags: #Execution
 let ProcessCreationEvents=() {
 let processEvents=SecurityEvent
