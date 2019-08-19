@@ -10,7 +10,7 @@
 //
 // DataConnector: #Syslog; DataTypes: #Squid
 //
-// Tactics: #Reconnaissance
+// Tactics: #Discovery
 //
 Syslog
 | where ProcessName contains "squid"
