@@ -24,4 +24,4 @@ Syslog
 | extend TLD = extract("\\.[a-z]*$",0,Domain)
 | where TLD in ( ".click", ".club", ".download",  ".xxx", ".xyz")
 | summarize clientCount = dcount(SourceIP) by TLD, User
-| order by TLD asc, clientCount des
+| order by TLD asc, clientCount desc
