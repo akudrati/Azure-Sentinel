@@ -7,7 +7,7 @@
 //
 // DataConnector: #Syslog; DataTypes: #Squid
 //
-// Tactics: #Reconnaissance, #C2
+// Tactics: #Discovery, #C2
 //
 let disabledAccounts = (){
 SigninLogs 
