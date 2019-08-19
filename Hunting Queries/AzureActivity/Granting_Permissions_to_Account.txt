@@ -7,7 +7,7 @@
 //
 // DataSource: #AzureActivity
 //
-// Tactics: #Persistence, #Lateral Movement
+// Tactics: #Persistence, #LateralMovement
 //
 AzureActivity
 | where TimeGenerated >= ago(30d)
